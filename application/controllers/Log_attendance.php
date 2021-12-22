@@ -1,4 +1,4 @@
-<?php
+       <?php
 
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
@@ -21,7 +21,7 @@ class Log_attendance extends CI_Controller
     public function json() {
         header('Content-Type: application/json');
         echo $this->Log_attendance_model->json();
-    }
+    } 
 
     public function read($id) 
     {

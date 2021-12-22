@@ -32,7 +32,7 @@
             <label for="address">Address <?php echo form_error('address') ?></label>
             <textarea class="form-control" rows="3" name="address" id="address" placeholder="Address"><?php echo $address; ?></textarea>
         </div>
-	    <input type="hidden" name="" value="<?php echo $; ?>" /> 
+	    <input type="hidden" name="" value="<?php echo $i; ?>" /> 
 	    <button type="submit" class="btn btn-primary"><?php echo $button ?></button> 
 	    <a href="<?php echo site_url('detail_user') ?>" class="btn btn-default">Cancel</a>
 	</form>
